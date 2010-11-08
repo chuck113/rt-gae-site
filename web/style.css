@@ -1,0 +1,112 @@
+html,body {
+    margin: 0;
+    padding: 0
+}
+body {
+    background: #000000; /* old browsers */
+    background: -moz-linear-gradient(top, #000000 0%, #262626 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#262626)); /* webkit */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#262626',GradientType=0 ) /* ie */
+}
+div#header {
+    position: relative
+}
+
+div#container {
+	width: 770px;
+    height:800px;
+    margin: 0 auto;
+	width: 800px;
+}
+
+div#left{
+    float: left;
+}
+
+div#right{
+    float: right;
+}
+
+div#mainLogo {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 350px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+p.text{
+    font-size:20px;
+    margin-top: 40px;
+    color:white;
+    width: 350px;
+    text-align:justify;
+    font-family:Courier
+}
+li.iPhoneImg{
+	border-style:solid;
+	border-width:5px;
+	border-color:white;
+}
+
+div#content p {
+    line-height: 1.4
+}
+div#navigation {
+    
+}
+div#screenshots {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#navcontainer ul li { 
+    display: inline; 
+}
+
+#navcontainer ul li img
+{
+    text-decoration: none;
+    padding: .2em 1em;
+}
+div#extra {
+    background: #FF8539
+}
+div#footer {
+    color: #FFF
+}
+div#footer p {
+    margin: 0;
+    padding: 5px 10px
+}
+div#footer a {
+    display: inline;
+    padding: 0;
+    color: #C6D5FD
+}
+ 
+div#navigation {
+    float: left;
+    width: 50%
+}
+div#extra {
+    float: left;
+    width: 49.9%
+}
+div#footer {
+    clear: left;
+    width: 100%
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
